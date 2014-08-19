@@ -1,1 +1,1 @@
-cinch:   bundle exec ./bot.rb
+cinch:   ruby ./bot.rb
