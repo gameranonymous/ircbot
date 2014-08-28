@@ -6,10 +6,6 @@ require './auto_voice.rb'
 
 Config = OpenStruct.new
 
-puts ENV['NICKSERV_USERNAME']
-puts ENV['NICKSERV_PASSWORD']
-puts '---' * 20
-
 bot = Cinch::Bot.new do
   configure do |c|
     c.server = "chat.freenode.org"
