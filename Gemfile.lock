@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.3.6)
     cinch (2.1.0)
+    cinch-identify (1.6.0)
+      cinch (~> 2.0)
     domain_name (0.5.20)
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.2)
@@ -41,5 +43,6 @@ PLATFORMS
 
 DEPENDENCIES
   cinch
+  cinch-identify
   kappa (~> 1.0)
   mechanize
